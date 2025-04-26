@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.libquirc</groupId>
+    <artifactId>libquirc-wrapper</artifactId>
+    <version>1.2-a9c52e79283d6872728e68fec7892dc7c276c827</version>
+    <packaging>jar</packaging>
+
+    <name>libquirc</name>
+    <description>A JNI for the quirc library, bundled and compiled for linux.</description>
+    <url>http://github.com/ascarrambad/libquirc-java-wrapper</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Matteo Riva</name>
+            <email>matteoriva@me.com</email>
+        </developer>
+        <developer>
+            <name>Daniel Beer</name>
+            <email>dlbeer@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/ascarrambad/libquirc-java-wrapper.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ascarrambad/libquirc-java-wrapper.git</developerConnection>
+        <url>http://github.com/ascarrambad/libquirc-java-wrapper/tree/main</url>
+    </scm>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <!--  LINUX  -->
+                    <include>**/*.a</include>
+                    <include>**/*.so</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>9</source>
+                    <target>9</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

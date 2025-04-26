@@ -1,0 +1,27 @@
+libquirc-java-wrapper — NOTICE
+==============================
+
+This software distribution bundles components governed by different open‑source licences.  The information below is provided in compliance with those licences.
+
+---------------------------------------------------------------------
+1. *quirc* — QR‑code decoder library
+---------------------------------------------------------------------
+* **Homepage:** https://github.com/dlbeer/quirc
+* **Copyright:** © 2010‑2016 Daniel Beer
+* **Licence:** ISC (full text reproduced verbatim below)
+
+No changes have been made to the *quirc* source code beyond compilation into a static archive.
+
+---------------------------------------------------------------------
+2. Wrapper / build tooling
+---------------------------------------------------------------------
+The Java JNI wrapper, build scripts and documentation are © 2025 Matteo Riva and are distributed under the MIT Licence (see the adjacent **LICENSE** file).
+
+---------------------------------------------------------------------
+ISC Licence (for *quirc*)
+---------------------------------------------------------------------
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
